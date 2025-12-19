@@ -1,13 +1,12 @@
 body{
 	background-color: grey
 }
-table{
-border: 3px solid black;
-}
 table.center{
+	border: 3px solid black;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 img.profile_front_page{
 	outline: 3px solid black;
 	
@@ -15,7 +14,8 @@ img.profile_front_page{
 	margin: auto;
 }
 
-th{
+
+th.header_cell{
 	padding-left: 20px;
 	padding-right: 20px;
 	
@@ -26,8 +26,35 @@ th{
 	font-size: 30px;
 }
 
-a{
+/*gallery acting page*/
+table.gallery{
+	border: 3px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image-container {
+  max-width: 450px;
+  height: 450px;
+  border: 1px solid black;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+}
+
+/*gallery acting page end*/
+
+a.header_link{
 	color: white;
+}
+
+p.header_text{
+	color: white;
+	line-height: 0px;
 }
 
 
@@ -70,8 +97,6 @@ a{
 
 .titleDiv
 {
-
-	
 	width: 500px;
 	
 	border: 3px solid white;
@@ -86,7 +111,12 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .itchWidgetDiv{
 	text-align: center;
+}
+a.contactLink{
+	color: white;
+}
+.contactLinksDiv{
+	
 }
