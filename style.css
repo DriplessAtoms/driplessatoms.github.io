@@ -12,6 +12,8 @@ img.profile_front_page{
 	
 	display: block;
 	margin: auto;
+	
+	
 }
 
 
@@ -24,7 +26,21 @@ th.header_cell{
 	color: white;
 	text-align: center;
 	font-size: 30px;
+	
+	max-width: auto;
+	max-height: auto;
 }
+
+a.header_link{
+	color: white;
+}
+
+p.header_text{
+	color: white;
+	line-height: 0px;
+}
+
+
 
 /*gallery acting page*/
 table.gallery{
@@ -48,15 +64,6 @@ table.gallery{
 
 /*gallery acting page end*/
 
-a.header_link{
-	color: white;
-}
-
-p.header_text{
-	color: white;
-	line-height: 0px;
-}
-
 
 .imageSpacingDiv{
 	padding: 30px;
@@ -67,7 +74,7 @@ p.header_text{
 
 .descriptionBoxDiv{
 	
-	width: 1000px;
+	max-width: 1000px;
 	padding-left: 10px;
 	padding-right: 10px;
 	
@@ -97,7 +104,7 @@ p.header_text{
 
 .titleDiv
 {
-	width: 500px;
+	max-width: 500px;
 	
 	border: 3px solid white;
 	background-color: black;
